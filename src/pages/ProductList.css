@@ -1,0 +1,60 @@
+.product-page {
+  padding: 30px;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  background-color: #f8f4ff;
+  min-height: 100vh;
+}
+
+.page-title {
+  font-family: "Pacifico", cursive;
+  color: #c07fff;
+  margin-bottom: 10px;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+}
+
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}
+
+.plant-card {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(192, 127, 255, 0.2);
+  transition: transform 0.2s;
+}
+
+.plant-card:hover {
+  transform: scale(1.03);
+}
+
+.plant-img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.add-btn {
+  background-color: #d8b4fe;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #c084fc;
+}
