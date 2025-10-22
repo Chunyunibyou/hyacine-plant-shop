@@ -1,49 +1,46 @@
 .landing-container {
-  background-image: url("https://i.imgur.com/2jRbtvR.jpeg"); /* you can replace with any Hyacine pic! */
+  background-image: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6");
   background-size: cover;
   background-position: center;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Quicksand", sans-serif;
 }
 
 .overlay {
-  background-color: rgba(255, 255, 255, 0.85);
-  border-radius: 30px;
-  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  width: 80%;
+  padding: 40px;
+  border-radius: 20px;
+  width: 70%;
   max-width: 600px;
-  box-shadow: 0 0 20px rgba(200, 180, 255, 0.4);
 }
 
 .company-name {
-  color: #c07fff;
   font-family: "Pacifico", cursive;
+  color: #4caf50;
   font-size: 2.5rem;
-  margin-bottom: 20px;
 }
 
 .company-desc {
-  font-size: 1.1rem;
-  color: #444;
-  margin-bottom: 25px;
-  line-height: 1.6;
+  font-family: "Quicksand", sans-serif;
+  margin-top: 10px;
+  color: #333;
 }
 
 .start-btn {
-  background-color: #d8b4fe;
+  margin-top: 20px;
+  background-color: #4caf50;
   border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
   color: white;
-  padding: 12px 30px;
-  border-radius: 25px;
+  font-size: 1.1rem;
   cursor: pointer;
-  font-size: 1rem;
-  transition: 0.3s;
+  transition: 0.3s ease;
 }
 
 .start-btn:hover {
-  background-color: #c084fc;
+  background-color: #45a049;
 }
